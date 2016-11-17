@@ -42,6 +42,10 @@ body {
     background: rgba(255,255,255,0.9);*/
     font-family: irisFont;
 }
+.title h3{
+    font-size: 48px;
+    font-family: irisFont;
+}
 
 .featurette-divider {
     margin: 80px 0;
