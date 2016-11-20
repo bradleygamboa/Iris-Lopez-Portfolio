@@ -13,6 +13,10 @@
     font-family: navFont;
     src: url(../fonts/paperdaisy-demo.ttf);
 }
+nav{
+    font-family: navFont;
+    font-size: 32px;
+}
 
 a.navbar-brand{
     font-family: navFont;
@@ -24,13 +28,7 @@ a.backToTop{
     font-size: 24px;
 }
 
-nav{
-    font-family: navFont;
-    font-size: 32px;
-}
-
 p.bio{
-    color: white;
     font-size: 48px;
     font-family: navFont;
 }
@@ -38,15 +36,13 @@ p.copyright{
     font-family: navFont;
     font-size: 32px;
 }
-.contacts{
-    color: white;
+.contacts{  
     font-size: 24px;
     font-family: times;
 }
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    background-color: black;
 }
 .spacing{
     margin-top: 80px;
@@ -87,7 +83,6 @@ body {
 .title h3{
     font-size: 56px;
     font-family: irisFont;
-    color: white;
     margin-bottom: 20px;
 }
 
