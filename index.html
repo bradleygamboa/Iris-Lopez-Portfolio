@@ -16,6 +16,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
+    <!--  Custom Fonts  -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -67,15 +69,15 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav pull-right">
                     <li>
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#rings">Rings</a>
+                        <a href="#shoes">Shoes</a>
                     </li>
                     <li>
-                        <a href="#shoes">Shoes</a>
+                        <a href="#shoes">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -93,14 +95,14 @@
             </div>
         </div>
     </header>
+    <a name="shoes"></a>
     <!-- Page Content -->
-    <a name="rings"></a>
     <div class="container">
         <hr class="featurette-divider">
         <!-- Title -->
         <div class="row">
             <div class="col-lg-12 text-center title">
-                <h3>Rings</h3>
+                <h3>Shoes</h3>
             </div>
         </div>
         <!-- /.row -->
@@ -108,7 +110,7 @@
         <div class="row text-center">
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img class="fancybox" src="img/shoes1.jpg" alt="">
                     <div class="caption">
                         <h3>Feature Label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -120,7 +122,7 @@
             </div>
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img class="fancybox" src="img/shoes2.jpg" alt="">
                     <div class="caption">
                         <h3>Feature Label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -132,7 +134,7 @@
             </div>
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
-                    <img src="http://placehold.it/800x500" alt="">
+                    <img class="fancybox" src="img/shoes3.jpg" alt="">
                     <div class="caption">
                         <h3>Feature Label</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -156,79 +158,43 @@
             </div>
         </div>
         <!-- /.row -->
-        <a name="shoes"></a>
-        <!-- Page Content -->
-        <div class="container">
-            <hr class="featurette-divider">
-            <!-- Title -->
-            <div class="row">
-                <div class="col-lg-12 text-center title">
-                    <h3>Shoes</h3>
-                </div>
-            </div>
-            <!-- /.row -->
-            <!-- Page Features -->
-            <div class="row text-center">
-                <div class="col-md-3 col-sm-6 hero-feature">
-                    <div class="thumbnail">
-                        <img class="fancybox" src="img/shoes1.jpg" alt="">
-                        <div class="caption">
-                            <h3>Feature Label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 hero-feature">
-                    <div class="thumbnail">
-                        <img class="fancybox" src="img/shoes2.jpg" alt="">
-                        <div class="caption">
-                            <h3>Feature Label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 hero-feature">
-                    <div class="thumbnail">
-                        <img class="fancybox" src="img/shoes3.jpg" alt="">
-                        <div class="caption">
-                            <h3>Feature Label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6 hero-feature">
-                    <div class="thumbnail">
-                        <img src="http://placehold.it/800x500" alt="">
-                        <div class="caption">
-                            <h3>Feature Label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p>
-                                <a href="#" class="btn btn-primary">Buy Now!</a> <a href="#" class="btn btn-default">More Info</a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.row -->
-            <!-- Footer -->
-            <footer>
+        <!-- Footer -->
+        <footer>
+            <div class="container text-center">
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <a href="#top">back to top</a>
-                        <p>Copyright &copy; Iris Lopez 2016</p>
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <ul class="list-inline text-center">
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <a class="backToTop" href="#top">back to top</a>
+                        <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
                     </div>
                 </div>
-            </footer>
-        </div>
+            </div>
+        </footer>
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
