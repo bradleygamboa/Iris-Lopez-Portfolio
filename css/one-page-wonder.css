@@ -19,18 +19,32 @@ a.navbar-brand{
     font-size: 48px;
 }
 
-nav{
-    font-family: navFont;
-    font-size: 32px;
-}
-
 a.backToTop{
     font-family: navFont;
     font-size: 24px;
 }
 
+nav{
+    font-family: navFont;
+    font-size: 32px;
+}
+
+p{
+    color: white;
+    font-size: 24px;
+ /*   font-family: irisFont;*/
+}
+p.copyright{
+    font-family: navFont;
+    font-size: 32px;
+}
+
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: black;
+}
+.spacing{
+    margin-top: 80px;
 }
 
 .header-image {
@@ -68,6 +82,7 @@ body {
 .title h3{
     font-size: 48px;
     font-family: irisFont;
+    color: white;
 }
 
 .featurette-divider {
