@@ -29,14 +29,19 @@ nav{
     font-size: 32px;
 }
 
-p{
+p.bio{
     color: white;
-    font-size: 24px;
- /*   font-family: irisFont;*/
+    font-size: 48px;
+    font-family: navFont;
 }
 p.copyright{
     font-family: navFont;
     font-size: 32px;
+}
+.contacts{
+    color: white;
+    font-size: 24px;
+    font-family: times;
 }
 
 body {
@@ -80,9 +85,10 @@ body {
     text-shadow: 5px 2px 4px black;
 }
 .title h3{
-    font-size: 48px;
+    font-size: 56px;
     font-family: irisFont;
     color: white;
+    margin-bottom: 20px;
 }
 
 .featurette-divider {
