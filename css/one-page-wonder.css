@@ -87,8 +87,10 @@ body {
 .title h3{
     font-size: 56px;
     font-family: irisFont;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .featurette-divider {
