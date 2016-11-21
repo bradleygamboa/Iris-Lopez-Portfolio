@@ -13,6 +13,10 @@
     font-family: navFont;
     src: url(../fonts/paperdaisy-demo.ttf);
 }
+.punc{
+    font-family: irisFont;
+    font-size: 16px;
+}
 nav{
     font-family: navFont;
     font-size: 32px;
@@ -29,7 +33,7 @@ a.backToTop{
 }
 
 p.bio{
-    font-size: 48px;
+    font-size: 49px;
     font-family: navFont;
 }
 p.copyright{
