@@ -40,6 +40,9 @@ p.copyright{
     font-family: navFont;
     font-size: 32px;
 }
+div.row{
+    padding-top: 10px;
+}
 .contacts{  
     font-size: 24px;
     font-family: times;
