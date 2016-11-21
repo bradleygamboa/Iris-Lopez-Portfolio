@@ -87,6 +87,11 @@ body {
     color: white;
     text-shadow: 5px 2px 4px black;
 }
+h3.byIris{
+    font-family: irisFont;
+    color: white;
+    text-shadow: 5px 2px 4px black;
+}
 .title h3{
     font-size: 56px;
     font-family: irisFont;
