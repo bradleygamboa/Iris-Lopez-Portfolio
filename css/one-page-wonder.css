@@ -241,4 +241,9 @@ footer {
         margin-bottom: 10px;
         margin-left: 0;
     }
+
+    p.bio{
+    font-size: 36px;
+    font-family: navFont;
+}
 }
