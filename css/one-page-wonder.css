@@ -243,10 +243,18 @@ footer {
     }
 
     p.bio{
-    font-size: 36px;
-    font-family: navFont;
-}
-a.email{  
-    font-size: 20px;
-    font-family: times;
-}
+        font-size: 36px;
+        font-family: navFont;
+    }
+    
+    a.email{  
+        font-size: 20px;
+        font-family: times;
+    }
+
+    abbr{
+        font-size: 20px;
+    }
+    i.fa.fa-envelope-o{
+        font-size: 20px;
+    }
