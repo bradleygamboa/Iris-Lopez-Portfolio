@@ -36,6 +36,9 @@ p.bio{
     font-size: 49px;
     font-family: navFont;
 }
+p.description{
+    font-size: 12px;
+}
 p.copyright{
     font-family: navFont;
     font-size: 32px;
